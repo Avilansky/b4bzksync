@@ -2,7 +2,7 @@ import { utils, Wallet } from "zksync-web3";import * as ethers from "ethers";
 import { HardhatRuntimeEnvironment } from "hardhat/types";import { Deployer } from "@matterlabs/hardhat-zksync-deploy";
 export default async function (hre: HardhatRuntimeEnvironment) {
 console.log(`Running deploy script for the Greeter contract`);
-const wallet = new Wallet("87c220c6c78457ac33e8d92db71fb19699d2dd510680a700c74832f27796cd08");
+const wallet = new Wallet("WALLET PRIVATE KEY");
 let deployer
 let artifact
 try {
